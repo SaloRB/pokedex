@@ -853,6 +853,11 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@ljharb/tsconfig@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@ljharb/tsconfig/-/tsconfig-0.3.2.tgz#743593e23f227393422a2b9612e477d8eef1df17"
+  integrity sha512-eAl8JEVuTikzBOgymq/ndBPOH5hThMLlryKoH3O4evzNHO9VfxKF6f81gxWyCadO6zKKkXO0IVOh+nvYB0aTZQ==
+
 "@lukeed/csprng@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@lukeed/csprng/-/csprng-1.1.0.tgz#1e3e4bd05c1cc7a0b2ddbd8a03f39f6e4b5e6cfe"
@@ -1005,6 +1010,11 @@
     iterare "1.2.1"
     path-to-regexp "8.2.0"
     tslib "2.8.1"
+
+"@nestjs/mapped-types@*":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@nestjs/mapped-types/-/mapped-types-2.1.0.tgz#b9b536b7c3571567aa1d0223db8baa1a51505a19"
+  integrity sha512-W+n+rM69XsFdwORF11UqJahn4J3xi4g/ZEOlJNL6KoW5ygWSmBB2p0S2BZ4FQeS/NDH72e6xIcu35SfJnE8bXw==
 
 "@nestjs/platform-express@^11.0.1":
   version "11.0.11"
