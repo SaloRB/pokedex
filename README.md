@@ -8,23 +8,33 @@
 
 2. Ejecutar
 
-```
+```bash
 yarn install
 ```
 
 3. Tener Nest CLI instalado
 
-```
+```bash
 npm i -g @nestjs/cli
 ```
 
 4. Levantar la base de datos
 
-```
+```bash
 docker-compose up -d
 ```
 
-5. Reconstruir la base de datos
+5. Clonar el archivo **.env.example** y renonmbrarlo a **.env**
+
+6. Llenar las variables de entorno definidas en el archivo **.env**
+
+7. Ejecutar la aplicación en dev:
+
+```bash
+yarn start:dev
+```
+
+8. Reconstruir la base de datos
 
 ```
 http://localhost:3000/api/v2/seed
